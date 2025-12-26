@@ -1,0 +1,128 @@
+(footprint "BARO"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
+	(tags "Through hole socket strip THT 1x06 2.54mm single row")
+	(property "Reference" "REF**"
+		(at 0 -2.77 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "37e78183-a85a-4be7-a479-d9a20b4f4262")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BARO"
+		(at 0 15.47 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "434fd637-51b6-4552-b849-05702f651cae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e9bf59a-6d3f-4515-a1d3-8d681c58e109")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ec4d92c-8530-4b22-9289-53ca846b6471")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 0)
+		(end 15.5 11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c1c2b980-a411-4791-bf61-b8b5e504c3cf")
+	)
+	(pad "1" thru_hole rect
+		(at 1.42 1 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "75d4d567-0c0f-4dc4-accf-b8906e2ec058")
+	)
+	(pad "2" thru_hole circle
+		(at 3.96 1 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5e63a97e-2faf-4507-b833-c7a536827e55")
+	)
+	(pad "3" thru_hole circle
+		(at 6.5 1 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d93b6566-17b9-4c59-a1a8-1bf3755963a6")
+	)
+	(pad "4" thru_hole circle
+		(at 9.04 1 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "28b13d1d-4553-403b-bfc1-7db85bedceb1")
+	)
+	(pad "5" thru_hole circle
+		(at 11.58 1 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0a703694-d170-4d09-8300-7b153cd87195")
+	)
+	(pad "6" thru_hole circle
+		(at 14.12 1 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f4daacd8-fbcf-47aa-94bd-2afec2076bcf")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x06_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
